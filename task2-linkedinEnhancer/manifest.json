@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "LinkedIn Enhancer",
+    "version": "1.0",
+    "permissions": ["storage", "scripting", "activeTab"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [{
+      "matches": ["*://www.linkedin.com/in/*"],
+      "js": ["content.js"]
+    }],
+    "host_permissions": ["*://www.linkedin.com/*"]
+  }
+  

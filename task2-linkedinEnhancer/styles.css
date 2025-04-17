@@ -1,0 +1,67 @@
+#linkedin-widget-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100000;
+    width: 300px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .linkedin-widget {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 16px;
+  }
+  
+  .widget-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .widget-header strong {
+    font-size: 16px;
+  }
+  
+  .widget-body {
+    margin-top: 12px;
+  }
+  
+  .progress-bar {
+    background: #eee;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 10px;
+    margin: 8px 0;
+  }
+  
+  .progress {
+    background: #4caf50;
+    height: 100%;
+  }
+  
+  .status-tag {
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: white;
+    font-size: 12px;
+  }
+  
+  .status-tag.green {
+    background: #4caf50;
+  }
+  
+  .status-tag.red {
+    background: #f44336;
+  }
+  
+  #toggle-widget {
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #888;
+  }
+  
